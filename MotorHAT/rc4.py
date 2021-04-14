@@ -7,7 +7,7 @@ Dir = [
     'forward',
     'backward',
 ]
-pwm = PCA9685(0x40, debug=True)
+pwm = PCA9685(0x40, debug=False)
 pwm.setPWMFreq(200) # for servo 50Hz(20ms), for DC-motor 200Hz(5ms)
 class MotorDriver():
     def __init__(self):
