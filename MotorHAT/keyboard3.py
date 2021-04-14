@@ -10,13 +10,17 @@ def main(stdscr):
         c = stdscr.getch()
         if c != -1:
             # print numeric value
-            stdscr.addstr(str(c) + ' ')
+            stdscr.clear()  # clear screen
+            stdscr.addstr(0,0, str(c) + ' ')
             stdscr.refresh()
+            stdscr.move(0,0)
             # return curser to start position
-            stdscr.move(0, 0)
             if c == ord('w'):
-                print("hello")
-            if c == 3 or c == ord('q'):
+                #print("hello")
+                stdscr.addstr(1,0, "hello")
+                stdscr.refresh()
+                stdscr.move(0,0)
+            if c == 3 or c == ord('q') or c == ord(' '):
                 break
 
 if __name__ == '__main__':
