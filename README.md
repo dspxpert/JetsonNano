@@ -5,8 +5,8 @@ Visual Studio Code install
 2. sudo dpkg -i code_1.55.2-1618306574_arm64.deb
 
 Install smbus
-sudo apt install python3-smbus
+1. sudo apt install python3-smbus
 
 Jetson.GPIO
 https://github.com/NVIDIA/jetson-gpio
-sudo pip install Jetson.GPIO
+1. sudo pip install Jetson.GPIO
