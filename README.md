@@ -21,3 +21,7 @@ JetsonHacks PiOLED
 3. cd pioled
 4. python3 stats.py
 5. ./createService.sh
+
+JetsonHacks CSI-Camera
+1. https://www.jetsonhacks.com/2019/04/02/jetson-nano-raspberry-pi-camera/
+2. https://github.com/JetsonHacksNano/CSI-Camera
