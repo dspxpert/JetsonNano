@@ -14,3 +14,10 @@ https://github.com/NVIDIA/jetson-gpio
 3. sudo usermod -a -G gpio your_user_name
 4. sudo cp lib/python/Jetson/GPIO/99-gpio.rules /etc/udev/rules.d/ or sudo cp venv/lib/pythonNN/site-packages/Jetson/GPIO/99-gpio.rules /etc/udev/rules.d/
 5. sudo udevadm control --reload-rules && sudo udevadm trigger
+
+JetsonHacks PiOLED
+1. https://github.com/JetsonHacksNano/installPiOLED
+2. ./installPiOLED.sh
+3. cd pioled
+4. python3 stats.py
+5. ./createService.sh
